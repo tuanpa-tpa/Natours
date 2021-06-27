@@ -41,6 +41,16 @@
             background-color: $color-white;
         }
     }
+
+    &--green {
+        background-color: $color-green-light;
+        color: $color-white;
+        &::after {
+            background-color: $color-green-light;
+        }
+    }
+
+
     &--animated {
         animation: moveInButtom 0.5s ease-out 0.75s;
     }
